@@ -9,33 +9,26 @@ body {
 }
 
 /*followed tutorial text animation css glowing*/
-.neon {
+.glow {
     position: relative;
     font-size: 6em;
     letter-spacing: 15px;
-    color: #34b3d6;
+    color: #a2ebff;
     text-transform: uppercase;
     width: 100%;
     text-align: center;
     outline: none;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
-    /* animation: animate 5s linear infinite; */
+    /* animation: glow 1s ease-in-out infinite alternate; */
+    /* text-shadow: 0 0 20px #fff, 0 0 30px #9afaf2e1, 0 0 40px #9afaf2e1, 0 0 50px #9afaf2e1, 0 0 60px #9afaf2e1, 0 0 70px #9afaf2e1, 0 0 80px #9afaf2e1; */
 }
 
-/* @keyframes animate {
-
-    0%,18%,20%,50.1%, 60%, 65.1%, 80%, 90.1%, 92%
-    {
-        color: #15a4cc;
-        text-shadow: none;
+/* @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #84e2f3, 0 0 40px #84e2f3, 0 0 50px #84e2f3, 0 0 60px #84e2f3, 0 0 70px #84e2f3;
     }
-    18.1%, 20.1%,30%,50%,60.1%,65%,80.1%,100%
-    {
-        color: #fff;
-        text-shadow: 0 0 10px #068cb4,
-        0 0 20px #03bcf4,
-        0 0 40px #03bcf4,
-        0 0 80px #03bcf4
-        0 0 160px #03bcf4
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #9afaf2e1, 0 0 40px #9afaf2e1, 0 0 50px #9afaf2e1, 0 0 60px #9afaf2e1, 0 0 70px #9afaf2e1, 0 0 80px #9afaf2e1;
     }
-} */
+  } */
