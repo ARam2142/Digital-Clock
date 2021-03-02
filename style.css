@@ -1,18 +1,41 @@
+
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 
+/*followed tutorial text animation css glowing*/
 .neon {
     position: relative;
     font-size: 6em;
     letter-spacing: 15px;
-    color: #0e3742;
+    color: #34b3d6;
     text-transform: uppercase;
     width: 100%;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, black);
-    animation: animate 5s linear infinite;
+    text-align: center;
+    outline: none;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    /* animation: animate 5s linear infinite; */
 }
+
+/* @keyframes animate {
+
+    0%,18%,20%,50.1%, 60%, 65.1%, 80%, 90.1%, 92%
+    {
+        color: #15a4cc;
+        text-shadow: none;
+    }
+    18.1%, 20.1%,30%,50%,60.1%,65%,80.1%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px #068cb4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4
+        0 0 160px #03bcf4
+    }
+} */
